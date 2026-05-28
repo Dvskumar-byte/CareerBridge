@@ -56,7 +56,7 @@ export const JobDetails = () => {
       try {
 
         const response = await fetch(
-          "http://localhost:3000/api/v1/getAllApplication",
+          "https://careerbridge-backend-94u7.onrender.com/api/v1/getAllApplication",
           {
             headers: {
               Authorization: `Bearer ${localStorage.getItem("userToken")}`

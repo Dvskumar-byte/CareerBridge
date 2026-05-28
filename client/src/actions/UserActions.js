@@ -43,7 +43,7 @@ export const registerUser = (userData) => async (dispatch) => {
         }
 
         const { data } = await axios.post(
-            "http://localhost:3000/api/v1/register",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/register",
             userData,
             config
         )
@@ -86,7 +86,7 @@ export const loginUser = (userData) => async (dispatch) => {
         dispatch(loginRequest())
 
         const { data } = await axios.post(
-            "http://localhost:3000/api/v1/login",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/login",
             userData
         )
 
@@ -134,7 +134,7 @@ export const logOrNot = () => async (dispatch) => {
         }
 
         const { data } = await axios.get(
-            "http://localhost:3000/api/v1/isLogin",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/isLogin",
             config
         )
 
@@ -167,7 +167,7 @@ export const me = () => async (dispatch) => {
         }
 
         const { data } = await axios.get(
-            "http://localhost:3000/api/v1/me",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/me",
             config
         )
 
@@ -209,7 +209,7 @@ export const changePass = (userData) => async (dispatch) => {
         }
 
         await axios.put(
-            "http://localhost:3000/api/v1/changePassword",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/changePassword",
             userData,
             config
         )
@@ -275,7 +275,7 @@ export const updateProfile = (userData) => async (dispatch) => {
         }
 
         await axios.put(
-            "http://localhost:3000/api/v1/updateProfile",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/updateProfile",
             formData,
             config
         )
@@ -326,7 +326,7 @@ export const deleteAccount = (userData, navigate) => async (dispatch) => {
         }
 
         const { data } = await axios.put(
-            "http://localhost:3000/api/v1/deleteAccount",
+            "https://careerbridge-backend-94u7.onrender.com/api/v1/deleteAccount",
             userData,
             config
         )

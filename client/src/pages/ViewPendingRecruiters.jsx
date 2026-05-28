@@ -23,7 +23,7 @@ export const ViewPendingRecruiters = () => {
 
         const { data } = await axios.get(
 
-          "http://localhost:3000/api/v1/admin/recruiters",
+          "https://careerbridge-backend-94u7.onrender.com/api/v1/admin/recruiters",
 
           {
             headers: {
@@ -67,7 +67,7 @@ export const ViewPendingRecruiters = () => {
 
     await axios.put(
 
-      `http://localhost:3000/api/v1/admin/approveRecruiter/${id}`,
+      `https://careerbridge-backend-94u7.onrender.com/api/v1/admin/approveRecruiter/${id}`,
 
       {},
 
@@ -105,7 +105,7 @@ const rejectRecruiterHandler = async (id) => {
 
     await axios.put(
 
-      `http://localhost:3000/api/v1/admin/rejectRecruiter/${id}`,
+      `https://careerbridge-backend-94u7.onrender.com/api/v1/admin/rejectRecruiter/${id}`,
 
       {},
 
