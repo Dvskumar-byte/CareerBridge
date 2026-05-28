@@ -79,23 +79,3 @@ export const saveJob = (id) => async (dispatch) => {
 } 
 
 
-export const getSavedJobs = () => async (dispatch) => {
-    try{
-        dispatch(getSavedJobsRequest())
-
-        const config = {
-            headers:{
-                'Content-Type': 'application/json',
-                Authorization: `Bearer ${localStorage.getItem('userToken')}`
-            }
-        }
-
-
-        const {data} = await axios.get("http://localhost:3000/api/v1/getSavedJobs",config) ;
-
-        dispatch(getSavedJobsSuccess(data))
-
-    }catch(err){
-        dispatch(getSavedJobsFail(err.response.data.message))
-    }
-}

@@ -150,12 +150,12 @@ export const Application = () => {
 
                                                 <a
     href={me.resume.url.replace("/upload/", "/upload/fl_attachment/")}
-    target="_blank"
-    rel="noopener noreferrer"
+    download
     className='bg-green-600 hover:bg-green-700 transition-all duration-300 px-4 py-1.5 rounded-md text-sm font-medium'
 >
     Download Resume
 </a>
+ 
 
                                             </div>
 

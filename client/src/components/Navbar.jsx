@@ -226,19 +226,11 @@ export const Navbar = () => {
 
                               </Menu.Item>
 
-                            </Link>
+                            
 
-                            <Link to="/saved">
+                                
 
-                              <Menu.Item
-                                icon={
-                                  <FaSave size={14} />
-                                }
-                              >
-
-                                Saved Jobs
-
-                              </Menu.Item>
+                              
 
                             </Link>
 
@@ -468,7 +460,7 @@ export const Navbar = () => {
                           }
                         >
 
-                          Saved Jobs
+                        
 
                         </Menu.Item>
 

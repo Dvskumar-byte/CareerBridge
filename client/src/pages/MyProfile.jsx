@@ -186,13 +186,7 @@ export const MyProfile = () => {
                                 </Link>
                               </li>
 
-                              <li>
-                                <Link to="/saved">
-                                  <button className='blueCol w-2/3 md:w-full font-medium px-6 py-1'>
-                                    Saved Jobs
-                                  </button>
-                                </Link>
-                              </li>
+                              
                             </>
                           )
                         }

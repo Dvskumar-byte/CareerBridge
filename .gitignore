@@ -4,3 +4,4 @@ config.env
 dist
 build
 .vscode
+server/uploads/

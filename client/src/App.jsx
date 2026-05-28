@@ -10,7 +10,6 @@ import { Contact } from './pages/Contact'
 import { About } from './pages/About'
 import { MyProfile } from './pages/MyProfile'
 import { AppliedJobs } from './pages/AppliedJobs'
-import { SavedJobs } from './pages/SavedJobs'
 import { Login } from './pages/Login'
 import { Register } from './pages/Register'
 import { JobDetails } from './pages/JobDetails'
@@ -160,10 +159,7 @@ function App() {
             element={<AppliedJobs />}
           />
 
-          <Route
-            path='/saved'
-            element={<SavedJobs />}
-          />
+         
 
           <Route
             path='/changePassword'
