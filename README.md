@@ -10,10 +10,10 @@
 ---
 
 ## 🌐 Live Demo
-**Frontend:** https://careerbridge-theta.vercel.app/
+## 🔗 Deployed Application
 
 
-**Backend API:** https://careerbridge-backend-94u7.onrender.com
+https://careerbridge-theta.vercel.app/
 
 ---
 
